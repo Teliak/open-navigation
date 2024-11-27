@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.teliak.opennavigation" name="OpenNavigation" version="0.0.1">
+    <platform name="ios">
+        <source-file src="ios/Sources/OpenNavigationPlugin/OpenNavigationPlugin.swift" />
+        <framework src="UIKit.framework" />
+        <framework src="CoreLocation.framework" />
+        <dependency id="capacitor" version="^6.0.0" />
+    </platform>
+</plugin>
