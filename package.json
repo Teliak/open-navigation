@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Teliak/open-navigation.git.git"
+    "url": "git+https://github.com/Teliak/open-navigation.git"
   },
   "bugs": {
     "url": "https://github.com/Teliak/open-navigation.git/issues"

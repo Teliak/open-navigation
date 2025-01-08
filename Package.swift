@@ -20,9 +20,5 @@ let package = Package(
                 .product(name: "Cordova", package: "capacitor-swift-pm")
             ],
             path: "ios/Sources/OpenNavigationPlugin"),
-        .testTarget(
-            name: "OpenNavigationPluginTests",
-            dependencies: ["OpenNavigationPlugin"],
-            path: "ios/Tests/OpenNavigationPluginTests")
     ]
 )

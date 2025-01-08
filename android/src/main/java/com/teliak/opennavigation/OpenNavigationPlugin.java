@@ -21,7 +21,7 @@ public class OpenNavigationPlugin extends Plugin {
 
         if (latitude != null && longitude != null) {
             // Intent avec coordonnées GPS
-            Uri gmmIntentUri = Uri.parse("geo:" + latitude + "," + longitude);
+            Uri gmmIntentUri = Uri.parse("geo:0,0?q=" + latitude + "," + longitude);
             intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
         } else if (address != null) {
             // Intent avec adresse
